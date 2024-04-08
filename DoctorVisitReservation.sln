@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{281ABC12-08B8-4F31-9ABB-9A5F5660FB08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0425C767-538A-44F2-B0F7-6302D8386100}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{09B4D07E-61E9-4D29-84DD-5067D3D9D1E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B1E72314-E6C3-4663-BA3C-E8BFF2C684BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F88D989C-0971-4C7A-9F1C-94F2230514BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E0041BC7-3C8B-462D-8E8E-19D2A2B0F6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Domain", "DoctorVisitReservation.Domain\DoctorVisitReservation.Domain.csproj", "{830B7543-D398-4A9E-B7E5-0067C0680740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Application", "DoctorVisitReservation.Application\DoctorVisitReservation.Application.csproj", "{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830B7543-D398-4A9E-B7E5-0067C0680740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830B7543-D398-4A9E-B7E5-0067C0680740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830B7543-D398-4A9E-B7E5-0067C0680740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830B7543-D398-4A9E-B7E5-0067C0680740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09B4D07E-61E9-4D29-84DD-5067D3D9D1E4} = {281ABC12-08B8-4F31-9ABB-9A5F5660FB08}
+		{B1E72314-E6C3-4663-BA3C-E8BFF2C684BD} = {281ABC12-08B8-4F31-9ABB-9A5F5660FB08}
+		{F88D989C-0971-4C7A-9F1C-94F2230514BB} = {281ABC12-08B8-4F31-9ABB-9A5F5660FB08}
+		{E0041BC7-3C8B-462D-8E8E-19D2A2B0F6D7} = {281ABC12-08B8-4F31-9ABB-9A5F5660FB08}
+		{830B7543-D398-4A9E-B7E5-0067C0680740} = {B1E72314-E6C3-4663-BA3C-E8BFF2C684BD}
+		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5} = {B1E72314-E6C3-4663-BA3C-E8BFF2C684BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E993D9D0-96BC-4257-AAC1-504CCB6475A4}
+	EndGlobalSection
+EndGlobal
