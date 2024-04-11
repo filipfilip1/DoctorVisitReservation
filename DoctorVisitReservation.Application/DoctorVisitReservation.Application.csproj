@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\City\Queries\GetDoctorsByCity\" />
     <Folder Include="Features\LinkTables\DoctorMedicalService\Queries\GetDoctorsByMedicalService\" />
     <Folder Include="Features\LinkTables\DoctorSpecialization\Queries\GetDoctorsBySpecialization\" />
     <Folder Include="Features\LinkTables\DoctorTreatedDisease\Queries\GetDoctorsByTreatedDisease\" />

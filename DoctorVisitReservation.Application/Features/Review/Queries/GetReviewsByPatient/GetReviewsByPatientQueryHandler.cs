@@ -22,7 +22,7 @@ public class GetReviewsByPatientQueryHandler : IRequestHandler<GetReviewsByPatie
     {
         var reviews = await _reviewRepository.GetByPatientIdAsync(request.PatientId);
 
-        return reviews == null ? new List<ReviewDetailsDto>() : _mapper.Map<List<Domain.Entities.Review>>(reviews);
+        return reviews == null ? new List<ReviewDetailsDto>() : _mapper.Map<List<ReviewDetailsDto>>(reviews);
 
     }
 }

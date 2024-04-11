@@ -22,6 +22,6 @@ public class GetReportsByUserQueryHandler : IRequestHandler<GetReportsByUserQuer
     {
         var reports = await _reportRepository.GetByUserIdAsync(request.UserId);
 
-        return reports == null ? new List<ReportDetailsDto>() : _mapper.Map<List<Domain.Entities.Report>>(reports);
+        return reports == null ? new List<ReportDetailsDto>() : _mapper.Map<List<ReportDetailsDto>>(reports);
     }
 }

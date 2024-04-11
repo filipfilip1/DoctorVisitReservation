@@ -3,48 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\mappingprofile\\cityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\mappingprofile\\cityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.persistence\\configurations\\educationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|solutionrelative:doctorvisitreservation.persistence\\configurations\\educationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\city\\queries\\getallcities\\getallcitiesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\city\\queries\\getallcities\\getallcitiesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.persistence\\repository\\doctorattributesrepository\\medicalservicereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|solutionrelative:doctorvisitreservation.persistence\\repository\\doctorattributesrepository\\medicalservicereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\city\\queries\\getcitybyid\\getcitybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\city\\queries\\getcitybyid\\getcitybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\contracts\\persistence\\doctorattributesrepository\\imedicalservicereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\contracts\\persistence\\doctorattributesrepository\\imedicalservicereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\city\\queries\\getcitybyid\\getcitybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\city\\queries\\getcitybyid\\getcitybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\linktables\\doctormedicalservice\\queries\\getmedicalservicesbydoctor\\getmedicalservicesbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\linktables\\doctormedicalservice\\queries\\getmedicalservicesbydoctor\\getmedicalservicesbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\city\\queries\\getallcities\\getallcitiesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\city\\queries\\getallcities\\getallcitiesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.persistence\\repository\\doctorattributesrepository\\treateddiseasereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|solutionrelative:doctorvisitreservation.persistence\\repository\\doctorattributesrepository\\treateddiseasereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\city\\queries\\shared\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\city\\queries\\shared\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\contracts\\persistence\\doctorattributesrepository\\itreateddiseasereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\contracts\\persistence\\doctorattributesrepository\\itreateddiseasereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\linktables\\doctortreateddisease\\queries\\gettreateddiseasesbydoctor\\gettreateddiseasesbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\linktables\\doctortreateddisease\\queries\\gettreateddiseasesbydoctor\\gettreateddiseasesbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\doctorattributes\\workaddress\\queries\\getworkaddressbydoctor\\getworkaddressbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\doctorattributes\\workaddress\\queries\\getworkaddressbydoctor\\getworkaddressbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\review\\queries\\getreviewsbydoctor\\getreviewsbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\review\\queries\\getreviewsbydoctor\\getreviewsbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\doctorattributes\\workaddress\\queries\\getworkaddressbydoctor\\getworkaddressbydoctorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\doctorattributes\\workaddress\\queries\\getworkaddressbydoctor\\getworkaddressbydoctorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\review\\queries\\getreviewsbypatient\\getreviewsbypatientqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\review\\queries\\getreviewsbypatient\\getreviewsbypatientqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\doctorattributes\\workaddress\\queries\\shared\\workaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\doctorattributes\\workaddress\\queries\\shared\\workaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\report\\queries\\getreportsbytarget\\getreportsbytargetqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\report\\queries\\getreportsbytarget\\getreportsbytargetqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\mappingprofile\\workaddressprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\mappingprofile\\workaddressprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.persistence\\repository\\doctorattributesrepository\\educationreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|solutionrelative:doctorvisitreservation.persistence\\repository\\doctorattributesrepository\\educationreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\contracts\\persistence\\doctorattributesrepository\\ieducationreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\contracts\\persistence\\doctorattributesrepository\\ieducationreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\linktables\\doctoreducation\\queries\\geteducationsbydoctor\\geteducationsbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\linktables\\doctoreducation\\queries\\geteducationsbydoctor\\geteducationsbydoctorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\contracts\\persistence\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\contracts\\persistence\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.persistence\\repository\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}|DoctorVisitReservation.Persistence\\DoctorVisitReservation.Persistence.csproj|solutionrelative:doctorvisitreservation.persistence\\repository\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\features\\report\\queries\\getreportsbyuser\\getreportsbyuserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\features\\report\\queries\\getreportsbyuser\\getreportsbyuserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application\\mappingprofile\\reportprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}|DoctorVisitReservation.Application\\DoctorVisitReservation.Application.csproj|solutionrelative:doctorvisitreservation.application\\mappingprofile\\reportprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +78,228 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetCityByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQueryHandler.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQueryHandler.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:28:34.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetCityByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQuery.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQuery.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQuery.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetCityById\\GetCityByIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:28:26.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CityProfile.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\MappingProfile\\CityProfile.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\MappingProfile\\CityProfile.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\MappingProfile\\CityProfile.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\MappingProfile\\CityProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Title": "EducationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Configurations\\EducationConfiguration.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Persistence\\Configurations\\EducationConfiguration.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Configurations\\EducationConfiguration.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Persistence\\Configurations\\EducationConfiguration.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:25:33.23Z",
+              "WhenOpened": "2024-04-11T22:27:44.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetAllCitiesQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQueryHandler.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQueryHandler.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQueryHandler.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQueryHandler.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAqwBgAAAAnAAAA",
+              "Title": "MedicalServiceReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\MedicalServiceReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\MedicalServiceReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\MedicalServiceReadOnlyRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\MedicalServiceReadOnlyRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBQAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:25:02.802Z",
+              "WhenOpened": "2024-04-11T22:27:25.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMedicalServiceReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IMedicalServiceReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IMedicalServiceReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IMedicalServiceReadOnlyRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IMedicalServiceReadOnlyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:27:19.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetMedicalServicesByDoctorQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorMedicalService\\Queries\\GetMedicalServicesByDoctor\\GetMedicalServicesByDoctorQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorMedicalService\\Queries\\GetMedicalServicesByDoctor\\GetMedicalServicesByDoctorQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorMedicalService\\Queries\\GetMedicalServicesByDoctor\\GetMedicalServicesByDoctorQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorMedicalService\\Queries\\GetMedicalServicesByDoctor\\GetMedicalServicesByDoctorQueryHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwB4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:27:15.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetAllCitiesQuery.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQuery.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQuery.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQuery.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\City\\Queries\\GetAllCities\\GetAllCitiesQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "TreatedDiseaseReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\TreatedDiseaseReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\TreatedDiseaseReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\TreatedDiseaseReadOnlyRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\TreatedDiseaseReadOnlyRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:24:31.238Z",
+              "WhenOpened": "2024-04-11T22:27:06.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CityDto.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\Shared\\CityDto.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\City\\Queries\\Shared\\CityDto.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\City\\Queries\\Shared\\CityDto.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\City\\Queries\\Shared\\CityDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Title": "ITreatedDiseaseReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\ITreatedDiseaseReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\ITreatedDiseaseReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\ITreatedDiseaseReadOnlyRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\ITreatedDiseaseReadOnlyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:24:04.725Z",
+              "WhenOpened": "2024-04-11T22:26:46.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-08T20:35:10.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetWorkAddressByDoctorQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQueryHandler.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQueryHandler.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQueryHandler.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQueryHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBUAAABcAAAA",
+              "Title": "GetTreatedDiseasesByDoctorQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorTreatedDisease\\Queries\\GetTreatedDiseasesByDoctor\\GetTreatedDiseasesByDoctorQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorTreatedDisease\\Queries\\GetTreatedDiseasesByDoctor\\GetTreatedDiseasesByDoctorQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorTreatedDisease\\Queries\\GetTreatedDiseasesByDoctor\\GetTreatedDiseasesByDoctorQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorTreatedDisease\\Queries\\GetTreatedDiseasesByDoctor\\GetTreatedDiseasesByDoctorQueryHandler.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwCAAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:55:36.381Z",
+              "WhenOpened": "2024-04-11T22:26:39.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GetWorkAddressByDoctorQuery.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQuery.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQuery.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQuery.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\GetWorkAddressByDoctor\\GetWorkAddressByDoctorQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Title": "GetReviewsByPatientQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByPatient\\GetReviewsByPatientQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByPatient\\GetReviewsByPatientQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByPatient\\GetReviewsByPatientQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByPatient\\GetReviewsByPatientQueryHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAMwBgAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:55:24.8Z"
+              "WhenOpened": "2024-04-11T22:25:42.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "WorkAddressProfile.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\MappingProfile\\WorkAddressProfile.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\MappingProfile\\WorkAddressProfile.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\MappingProfile\\WorkAddressProfile.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\MappingProfile\\WorkAddressProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Title": "EducationReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\EducationReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\EducationReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\EducationReadOnlyRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Persistence\\Repository\\DoctorAttributesRepository\\EducationReadOnlyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:50:23.474Z"
+              "WhenOpened": "2024-04-11T22:25:10.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEducationReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IEducationReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IEducationReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IEducationReadOnlyRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Contracts\\Persistence\\DoctorAttributesRepository\\IEducationReadOnlyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:24:56.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetEducationsByDoctorQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorEducation\\Queries\\GetEducationsByDoctor\\GetEducationsByDoctorQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorEducation\\Queries\\GetEducationsByDoctor\\GetEducationsByDoctorQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorEducation\\Queries\\GetEducationsByDoctor\\GetEducationsByDoctorQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\LinkTables\\DoctorEducation\\Queries\\GetEducationsByDoctor\\GetEducationsByDoctorQueryHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAhwB4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:24:42.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetReviewsByDoctorQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByDoctor\\GetReviewsByDoctorQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByDoctor\\GetReviewsByDoctorQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByDoctor\\GetReviewsByDoctorQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\Review\\Queries\\GetReviewsByDoctor\\GetReviewsByDoctorQueryHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIAwwBkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:24:39.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "WorkAddressDto.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\Shared\\WorkAddressDto.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\Shared\\WorkAddressDto.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\Shared\\WorkAddressDto.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\DoctorAttributes\\WorkAddress\\Queries\\Shared\\WorkAddressDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "GetReportsByTargetQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByTarget\\GetReportsByTargetQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByTarget\\GetReportsByTargetQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByTarget\\GetReportsByTargetQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByTarget\\GetReportsByTargetQueryHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBoAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:48:46.69Z"
+              "WhenOpened": "2024-04-11T22:24:37.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportProfile.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\MappingProfile\\ReportProfile.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\MappingProfile\\ReportProfile.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\MappingProfile\\ReportProfile.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\MappingProfile\\ReportProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:23:00.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\IReportRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Contracts\\Persistence\\IReportRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Contracts\\Persistence\\IReportRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Contracts\\Persistence\\IReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:26:05.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetReportsByUserQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByUser\\GetReportsByUserQueryHandler.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByUser\\GetReportsByUserQueryHandler.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByUser\\GetReportsByUserQueryHandler.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Application\\Features\\Report\\Queries\\GetReportsByUser\\GetReportsByUserQueryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:17:13.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.Persistence\\Repository\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Persistence\\Repository\\ReportRepository.cs",
+              "RelativeToolTip": "DoctorVisitReservation.Persistence\\Repository\\ReportRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:27:11.492Z",
+              "EditorCaption": ""
             }
           ]
         }

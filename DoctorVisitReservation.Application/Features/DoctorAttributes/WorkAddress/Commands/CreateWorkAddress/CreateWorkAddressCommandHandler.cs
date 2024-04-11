@@ -2,11 +2,7 @@
 using DoctorVisitReservation.Application.Contracts.Persistence.DoctorAttributesRepository;
 using DoctorVisitReservation.Application.Exceptions;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DoctorVisitReservation.Application.Features.DoctorAttributes.WorkAddress.Commands.CreateWorkAddress;
 

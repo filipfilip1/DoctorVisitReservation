@@ -10,7 +10,7 @@ namespace DoctorVisitReservation.Application.Features.Appointment.Commands.Resch
 
 public class RescheduleAppointmentCommandHandler : IRequestHandler<RescheduleAppointmentCommand, bool>
 {
-    private readonly IAppointmentRepository _appointmentRepository;;  
+    private readonly IAppointmentRepository _appointmentRepository;  
 
     public RescheduleAppointmentCommandHandler(IAppointmentRepository appointmentRepository, IMapper mapper)
     {

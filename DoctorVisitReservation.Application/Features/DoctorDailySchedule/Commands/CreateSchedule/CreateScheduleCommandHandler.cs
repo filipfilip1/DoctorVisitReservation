@@ -9,18 +9,18 @@ namespace DoctorVisitReservation.Application.Features.DoctorDailySchedule.Comman
 
 public class CreateScheduleCommandHandler : IRequestHandler<CreateScheduleCommand, int>
 {
-    private readonly IDoctorDailyScheduleRepository _scheduleRepository;
+    private readonly IDoctorDailyScheduleRepository _doctorDailyScheduleRepository;
     private readonly IMapper _mapper;
 
     public CreateScheduleCommandHandler(IDoctorDailyScheduleRepository scheduleRepository, IMapper mapper)
     {
-        _scheduleRepository = scheduleRepository;
+        _doctorDailyScheduleRepository = scheduleRepository;
         _mapper = mapper;
     }
 
     public async Task<int> Handle(CreateScheduleCommand request, CancellationToken cancellationToken)
     {
-        var validator = new CreateScheduleCommandValidator(_scheduleRepository);
+        var validator = new CreateScheduleCommandValidator(_doctorDailyScheduleRepository);
         var validationResult = await validator.ValidateAsync(request);
 
         if (validationResult.Errors.Any())
@@ -28,7 +28,7 @@ public class CreateScheduleCommandHandler : IRequestHandler<CreateScheduleComman
 
         var schedule = _mapper.Map<Domain.Entities.DoctorDailySchedule>(request);
 
-        await _scheduleRepository.CreateAsync(schedule);
+        await _doctorDailyScheduleRepository.CreateAsync(schedule);
 
         return schedule.Id;
     }

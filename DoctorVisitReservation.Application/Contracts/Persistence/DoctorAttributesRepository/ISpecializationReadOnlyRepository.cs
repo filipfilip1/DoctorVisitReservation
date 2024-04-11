@@ -5,4 +5,6 @@ namespace DoctorVisitReservation.Application.Contracts.Persistence.DoctorAttribu
 
 public interface ISpecializationReadOnlyRepository : IGenericReadOnlyRepository<Specialization>
 {
+    Task<List<Specialization>> GetByIdsAsync(IEnumerable<int> ids);
+
 }

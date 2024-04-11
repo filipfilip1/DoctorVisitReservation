@@ -7,11 +7,11 @@ namespace DoctorVisitReservation.Application.Features.DoctorDailySchedule.Comman
 
 public class CreateScheduleCommandValidator : AbstractValidator<CreateScheduleCommand>
 {
-    private readonly IDoctorDailyScheduleRepository _scheduleRepository;
+    private readonly IDoctorDailyScheduleRepository _doctorDailyScheduleRepository;
 
     public CreateScheduleCommandValidator(IDoctorDailyScheduleRepository scheduleRepository)
     {
-        _scheduleRepository = scheduleRepository;
+        _doctorDailyScheduleRepository = scheduleRepository;
 
         RuleFor(s => s.Date)
             .NotEmpty().WithMessage("Date is required");
@@ -33,7 +33,7 @@ public class CreateScheduleCommandValidator : AbstractValidator<CreateScheduleCo
 
     private async Task<bool> IsScheduleTimeAvailable(CreateScheduleCommand command, CancellationToken cancellationToken)
     {
-        var schedules = await _scheduleRepository.GetSchedulesByDoctorAndDateAsync(command.DoctorId, command.Date);
+        var schedules = await _doctorDailyScheduleRepository.GetSchedulesByDoctorAndDateAsync(command.DoctorId, command.Date);
 
         return schedules.All(existingSchedule =>
             command.EndTime <= existingSchedule.StartTime || command.StartTime >= existingSchedule.EndTime);

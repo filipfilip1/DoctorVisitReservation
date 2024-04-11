@@ -5,5 +5,5 @@ namespace DoctorVisitReservation.Application.Features.DoctorAttributes.Specializ
 public class SpecializationDto
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } 
 }

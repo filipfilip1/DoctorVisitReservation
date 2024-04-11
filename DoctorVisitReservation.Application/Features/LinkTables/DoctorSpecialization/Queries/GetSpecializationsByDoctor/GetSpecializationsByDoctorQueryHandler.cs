@@ -27,7 +27,7 @@ public class GetSpecializationsByDoctorQueryHandler : IRequestHandler<GetSpecial
         if (doctorSpecializations == null || !doctorSpecializations.Any())
             throw new NotFoundException(nameof(doctorSpecializations), request.DoctorId);
 
-        var specializationIds = doctorSpecializations.Select(ds => ds.SpecializationId).Distinct();
+        var specializationIds = doctorSpecializations.Select(ds => ds.SpecializationId);
         var specializations = await _specializationRepository.GetByIdsAsync(specializationIds);
 
         return _mapper.Map<List<SpecializationDto>>(specializations);

@@ -15,9 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E0041BC7-3C8B-462D-8E8E-19D2A2B0F6D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Domain", "DoctorVisitReservation.Domain\DoctorVisitReservation.Domain.csproj", "{830B7543-D398-4A9E-B7E5-0067C0680740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorVisitReservation.Domain", "DoctorVisitReservation.Domain\DoctorVisitReservation.Domain.csproj", "{830B7543-D398-4A9E-B7E5-0067C0680740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Application", "DoctorVisitReservation.Application\DoctorVisitReservation.Application.csproj", "{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorVisitReservation.Application", "DoctorVisitReservation.Application\DoctorVisitReservation.Application.csproj", "{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Persistence", "DoctorVisitReservation.Persistence\DoctorVisitReservation.Persistence.csproj", "{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{E0041BC7-3C8B-462D-8E8E-19D2A2B0F6D7} = {281ABC12-08B8-4F31-9ABB-9A5F5660FB08}
 		{830B7543-D398-4A9E-B7E5-0067C0680740} = {B1E72314-E6C3-4663-BA3C-E8BFF2C684BD}
 		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5} = {B1E72314-E6C3-4663-BA3C-E8BFF2C684BD}
+		{E77D5808-FAB3-4A3F-88AD-02558A8C53D6} = {F88D989C-0971-4C7A-9F1C-94F2230514BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E993D9D0-96BC-4257-AAC1-504CCB6475A4}

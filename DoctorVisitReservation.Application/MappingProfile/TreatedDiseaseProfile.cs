@@ -1,6 +1,4 @@
-﻿
-
-using AutoMapper;
+﻿using AutoMapper;
 using DoctorVisitReservation.Application.Features.DoctorAttributes.TreatedDisease.Queries.Shared;
 
 namespace DoctorVisitReservation.Application.MappingProfile;
@@ -12,5 +10,4 @@ public class TreatedDiseaseProfile : Profile
         CreateMap<Domain.Entities.DoctorAttributes.TreatedDisease, TreatedDiseaseDto>();
     }
 }
-{
-}
+

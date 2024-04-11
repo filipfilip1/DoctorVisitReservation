@@ -24,7 +24,7 @@ public class GetReportsByTargetQueryHandler : IRequestHandler<GetReportsByTarget
     {
         var reports = await _reportRepository.GetByTargetAsync(request.TargetType, request.TargetId);
 
-        return reports == null ? new List<ReportDetailsDto>() : _mapper.Map<List<Domain.Entities.Report>>(reports);
+        return reports == null ? new List<ReportDetailsDto>() : _mapper.Map<List<ReportDetailsDto>>(reports);
     }
 
 }

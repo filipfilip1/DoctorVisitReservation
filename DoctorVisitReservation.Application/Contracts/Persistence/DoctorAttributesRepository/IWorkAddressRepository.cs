@@ -7,4 +7,6 @@ namespace DoctorVisitReservation.Application.Contracts.Persistence.DoctorAttribu
 
 public interface IWorkAddressRepository : IGenericRepository<WorkAddress>
 {
+    Task<List<WorkAddress>> GetByDoctorIdAsync(string doctorId);
+
 }

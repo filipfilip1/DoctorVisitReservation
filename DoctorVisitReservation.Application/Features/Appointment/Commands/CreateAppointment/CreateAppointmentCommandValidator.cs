@@ -23,15 +23,17 @@ public class CreateAppointmentCommandValidator : AbstractValidator<CreateAppoint
             .NotEmpty().WithMessage("{PropertyName} is required");
 
         RuleFor(p => p)
-            .MustAsync((command, cancellationToken) => IsDoctorAvailable(command.DoctorId, command.AppointmentDateTime, cancellationToken))
+            .MustAsync(IsDoctorAvailable)
             .WithMessage("Doctor is not available at this time.");
     }
 
-    private async Task<bool> IsDoctorAvailable(string doctorId, DateTime appointmentDateTime, CancellationToken cancellationToken)
+    private async Task<bool> IsDoctorAvailable(CreateAppointmentCommand command, CancellationToken cancellationToken)
     {
-        var doctorAvailability = await _doctorDailyScheduleRepository.GetByDoctorIdAndDateAsync(doctorId, appointmentDateTime.Date);
-        return doctorAvailability != null &&
-               appointmentDateTime.TimeOfDay >= doctorAvailability.StartTime &&
-               appointmentDateTime.TimeOfDay <= doctorAvailability.EndTime;
+        var doctorSchedules = await _doctorDailyScheduleRepository.GetSchedulesByDoctorAndDateAsync(command.DoctorId, 
+            command.AppointmentDateTime.Date);
+
+        return doctorSchedules.Any(schedule =>
+            command.AppointmentDateTime.TimeOfDay >= schedule.StartTime &&
+            command.AppointmentDateTime.TimeOfDay <= schedule.EndTime);
     }
 }
