@@ -1,4 +1,5 @@
 ﻿
+using DoctorVisitReservation.Application.Features.DoctorAttributes.MedicalService.Queries.Shared;
 using MediatR;
 
 namespace DoctorVisitReservation.Application.Features.LinkTables.DoctorMedicalService.Queries.GetMedicalServicesByDoctor;

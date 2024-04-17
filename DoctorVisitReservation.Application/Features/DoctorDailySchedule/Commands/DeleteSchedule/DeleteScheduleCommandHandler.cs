@@ -24,8 +24,8 @@ public class DeleteScheduleCommandHandler : IRequestHandler<DeleteScheduleComman
         if (schedule == null)
             throw new NotFoundException(nameof(schedule), request.Id);
 
-        var scheduleStartTime = schedule.Date.Add(schedule.StartTime);
-        var scheduleEndTime = schedule.Date.Add(schedule.EndTime);
+        var scheduleStartTime = schedule.StartTime;
+        var scheduleEndTime = schedule.EndTime;
 
         var appointments = await _appointmentRepository.GetByDoctorAndDateTimeRangeAsync(schedule.DoctorId, scheduleStartTime, scheduleEndTime);
         if (appointments.Any())

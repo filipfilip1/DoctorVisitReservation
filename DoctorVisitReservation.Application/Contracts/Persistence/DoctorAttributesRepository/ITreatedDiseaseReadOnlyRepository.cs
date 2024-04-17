@@ -7,6 +7,9 @@ public interface ITreatedDiseaseReadOnlyRepository : IGenericReadOnlyRepository<
 {
     Task<List<TreatedDisease>> GetBySpecializationIdAsync(int specializationId);
     Task<List<TreatedDisease>> GetByIdsAsync(IEnumerable<int> ids);
+    Task<List<TreatedDisease>> GetAllTreatedDiseasesWithDetails();
+    Task<TreatedDisease> GetTreatedDiseaseByIdWithDetails(int id);
+
 
 
 }

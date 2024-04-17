@@ -33,7 +33,7 @@ public class CreateAppointmentCommandValidator : AbstractValidator<CreateAppoint
             command.AppointmentDateTime.Date);
 
         return doctorSchedules.Any(schedule =>
-            command.AppointmentDateTime.TimeOfDay >= schedule.StartTime &&
-            command.AppointmentDateTime.TimeOfDay <= schedule.EndTime);
+            command.AppointmentDateTime >= schedule.StartTime &&
+            command.AppointmentDateTime <= schedule.EndTime);
     }
 }

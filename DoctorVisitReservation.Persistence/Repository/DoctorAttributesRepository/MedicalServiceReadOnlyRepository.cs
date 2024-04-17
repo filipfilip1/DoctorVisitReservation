@@ -14,6 +14,7 @@ public class MedicalServiceReadOnlyRepository : GenericReadOnlyRepository<Medica
     public async Task<List<MedicalService>> GetBySpecializationIdAsync(int specializationId)
     {
         return await _context.MedicalServices
+            .Include(m => m.Specialization)
             .Where(m => m.SpecializationId == specializationId)
             .ToListAsync();
     }
@@ -23,5 +24,19 @@ public class MedicalServiceReadOnlyRepository : GenericReadOnlyRepository<Medica
         return await _context.MedicalServices
             .Where(ms => medicalServiceIds.Contains(ms.Id))
             .ToListAsync();
+    }
+
+    public async Task<List<MedicalService>> GetAllMedicalServicesWithDetails()
+    {
+        return await _context.MedicalServices
+            .Include(m => m.Specialization)
+            .ToListAsync();
+    }
+
+    public async Task<MedicalService> GetMedicalServiceByIdWithDetails(int id)
+    {
+        return await _context.MedicalServices
+            .Include(m => m.Specialization)
+            .FirstOrDefaultAsync(ms => ms.Id == id);
     }
 }

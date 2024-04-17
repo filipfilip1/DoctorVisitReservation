@@ -6,7 +6,7 @@ using DoctorVisitReservation.Application.Exceptions;
 using DoctorVisitReservation.Application.Features.DoctorAttributes.TreatedDisease.Queries.Shared;
 using MediatR;
 
-namespace DoctorVisitReservation.Application.Features.DoctorAttributes.TreatedDisease.Queries.GetTreatedDiseasesBySpecialization;
+namespace DoctorVisitReservation.Application.Features.DoctorAttributes.TreatedDisease.Queries.GetTreatedDiseasesBySpecializationId;
 
 public class GetTreatedDiseasesBySpecializationIdQueryHandler : IRequestHandler<GetTreatedDiseasesBySpecializationIdQuery, List<TreatedDiseaseDto>>
 {

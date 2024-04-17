@@ -4,6 +4,7 @@ using AutoMapper;
 using DoctorVisitReservation.Application.Contracts.Persistence.DoctorAttributesRepository;
 using DoctorVisitReservation.Application.Contracts.Persistence.LinkTablesRepository;
 using DoctorVisitReservation.Application.Exceptions;
+using DoctorVisitReservation.Application.Features.DoctorAttributes.MedicalService.Queries.Shared;
 using MediatR;
 
 namespace DoctorVisitReservation.Application.Features.LinkTables.DoctorMedicalService.Queries.GetMedicalServicesByDoctor;

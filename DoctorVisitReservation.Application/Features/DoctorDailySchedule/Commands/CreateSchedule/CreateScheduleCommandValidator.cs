@@ -13,9 +13,6 @@ public class CreateScheduleCommandValidator : AbstractValidator<CreateScheduleCo
     {
         _doctorDailyScheduleRepository = scheduleRepository;
 
-        RuleFor(s => s.Date)
-            .NotEmpty().WithMessage("Date is required");
-
         RuleFor(s => s.StartTime)
             .NotEmpty().WithMessage("Start time is required");
 
@@ -29,14 +26,20 @@ public class CreateScheduleCommandValidator : AbstractValidator<CreateScheduleCo
         RuleFor(s => s)
             .MustAsync(IsScheduleTimeAvailable)
             .WithMessage("The schedule overlaps with an existing schedule.");
+
+        RuleFor(schedule => schedule.StartTime.Date)
+            .Equal(schedule => schedule.EndTime.Date)
+            .WithMessage("StartTime and EndTime must be on the same day.");
+
     }
 
     private async Task<bool> IsScheduleTimeAvailable(CreateScheduleCommand command, CancellationToken cancellationToken)
     {
-        var schedules = await _doctorDailyScheduleRepository.GetSchedulesByDoctorAndDateAsync(command.DoctorId, command.Date);
+        var schedules = await _doctorDailyScheduleRepository.GetSchedulesByDoctorAndDateAsync(command.DoctorId, command.StartTime.Date);
 
         return schedules.All(existingSchedule =>
             command.EndTime <= existingSchedule.StartTime || command.StartTime >= existingSchedule.EndTime);
     }
+
 
 }

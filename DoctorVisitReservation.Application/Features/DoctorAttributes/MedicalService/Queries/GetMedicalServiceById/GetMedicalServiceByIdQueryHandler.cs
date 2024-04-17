@@ -21,7 +21,7 @@ public class GetMedicalServiceByIdQueryHandler : IRequestHandler<GetMedicalServi
 
     public async Task<MedicalServiceDto> Handle(GetMedicalServiceByIdQuery request, CancellationToken cancellationToken)
     {
-        var medicalService = await _medicalServiceRepository.GetByIdAsync(request.Id);
+        var medicalService = await _medicalServiceRepository.GetMedicalServiceByIdWithDetails(request.Id);
 
         if (medicalService == null)
             throw new NotFoundException(nameof(medicalService), request.Id);

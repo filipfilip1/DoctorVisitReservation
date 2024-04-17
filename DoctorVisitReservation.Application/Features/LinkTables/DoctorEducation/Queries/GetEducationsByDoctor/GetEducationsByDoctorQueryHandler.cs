@@ -3,6 +3,7 @@
 using AutoMapper;
 using DoctorVisitReservation.Application.Contracts.Persistence.DoctorAttributesRepository;
 using DoctorVisitReservation.Application.Contracts.Persistence.LinkTablesRepository;
+using DoctorVisitReservation.Application.Features.DoctorAttributes.Education.Queries.Shared;
 using DoctorVisitReservation.Application.Exceptions;
 using MediatR;
 

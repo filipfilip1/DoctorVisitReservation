@@ -5,7 +5,7 @@ using MediatR;
 
 namespace DoctorVisitReservation.Application.Features.LinkTables.DoctorEducation.Commands.AddDoctorEducation;
 
-public class AddDoctorEducationCommandHandler : IRequestHandler<AddDoctorEducationCommand, bool>
+public class AddDoctorEducationCommandHandler : IRequestHandler<AddDoctorEducationCommand, int>
 {
     private readonly IDoctorEducationRepository _doctorEducationRepository;
     private readonly IMapper _mapper;
@@ -16,7 +16,7 @@ public class AddDoctorEducationCommandHandler : IRequestHandler<AddDoctorEducati
         _mapper = mapper;
     }
 
-    public async Task<bool> Handle(AddDoctorEducationCommand request, CancellationToken cancellationToken)
+    public async Task<int> Handle(AddDoctorEducationCommand request, CancellationToken cancellationToken)
     {
         var validator = new AddDoctorEducationCommandValidator();
         var validationResult = await validator.ValidateAsync(request, cancellationToken);
@@ -28,6 +28,6 @@ public class AddDoctorEducationCommandHandler : IRequestHandler<AddDoctorEducati
 
         await _doctorEducationRepository.CreateAsync(doctorEducation);
 
-        return true;
+        return doctorEducation.Id;
     }
 }

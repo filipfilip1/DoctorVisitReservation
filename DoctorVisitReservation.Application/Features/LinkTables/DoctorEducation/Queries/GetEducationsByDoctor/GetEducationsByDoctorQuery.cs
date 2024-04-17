@@ -2,7 +2,7 @@
 
 using MediatR;
 
-namespace DoctorVisitReservation.Application.Features.LinkTables.DoctorEducation.Queries.GetEducationsByDoctor;
+namespace DoctorVisitReservation.Application.Features.DoctorAttributes.Education.Queries.Shared;
 
 public class GetEducationsByDoctorQuery : IRequest<List<EducationDto>>
 {

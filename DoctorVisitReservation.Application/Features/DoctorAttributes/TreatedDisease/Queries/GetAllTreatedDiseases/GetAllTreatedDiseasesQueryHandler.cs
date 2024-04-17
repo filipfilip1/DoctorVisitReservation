@@ -21,7 +21,7 @@ public class GetAllTreatedDiseasesQueryHandler : IRequestHandler<GetAllTreatedDi
 
     public async Task<List<TreatedDiseaseDto>> Handle(GetAllTreatedDiseasesQuery request, CancellationToken cancellationToken)
     {
-        var treatedDiseases = await _treatedDiseaseRepository.GetAsync();
+        var treatedDiseases = await _treatedDiseaseRepository.GetAllTreatedDiseasesWithDetails();
         if (treatedDiseases == null || !treatedDiseases.Any())
             throw new NotFoundException(nameof(treatedDiseases), request);
 

@@ -14,7 +14,16 @@ public class DoctorEducationRepository : GenericRepository<DoctorEducation>, IDo
     public async Task<List<DoctorEducation>> GetByDoctorIdAsync(string doctorId)
     {
         return await _context.DoctorEducations
+            .Include(de => de.Education)
             .Where(de => de.DoctorId == doctorId)
             .ToListAsync();
     }
+
+    public async Task<DoctorEducation> GetDoctorEducationByIdWithDetails(int id)
+    {
+        return await _context.DoctorEducations
+            .Include(de => de.Education)
+            .SingleOrDefaultAsync(de => de.Id == id);
+    }
+
 }

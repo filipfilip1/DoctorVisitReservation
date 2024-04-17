@@ -7,6 +7,7 @@ namespace DoctorVisitReservation.Application.Contracts.Persistence.LinkTablesRep
 public interface IDoctorEducationRepository : IGenericRepository<DoctorEducation>
 {
     Task<List<DoctorEducation>> GetByDoctorIdAsync(string doctorId);
+    Task<DoctorEducation> GetDoctorEducationByIdWithDetails(int id);
 
 }
 

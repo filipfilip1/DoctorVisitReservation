@@ -21,7 +21,7 @@ public class GetAllMedicalServicesQueryHandler : IRequestHandler<GetAllMedicalSe
 
     public async Task<List<MedicalServiceDto>> Handle(GetAllMedicalServicesQuery request, CancellationToken cancellationToken)
     {
-        var medicalServices = await _medicalServiceRepository.GetAsync();
+        var medicalServices = await _medicalServiceRepository.GetAllMedicalServicesWithDetails();
         if (medicalServices == null || !medicalServices.Any())
             throw new NotFoundException(nameof(medicalServices), request);
 
