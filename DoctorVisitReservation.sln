@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorVisitReservation.Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorVisitReservation.Persistence", "DoctorVisitReservation.Persistence\DoctorVisitReservation.Persistence.csproj", "{E77D5808-FAB3-4A3F-88AD-02558A8C53D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Api", "DoctorVisitReservation.Api\DoctorVisitReservation.Api.csproj", "{409779D5-239E-48F4-9F71-3347FE87566A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorVisitReservation.Api", "DoctorVisitReservation.Api\DoctorVisitReservation.Api.csproj", "{409779D5-239E-48F4-9F71-3347FE87566A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitReservation.Application.UnitTests", "DoctorVisitReservation.Application.UnitTests\DoctorVisitReservation.Application.UnitTests.csproj", "{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{409779D5-239E-48F4-9F71-3347FE87566A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{409779D5-239E-48F4-9F71-3347FE87566A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{409779D5-239E-48F4-9F71-3347FE87566A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{4640134A-EAF0-4AF2-BE8E-A4A5E3805AD5} = {B1E72314-E6C3-4663-BA3C-E8BFF2C684BD}
 		{E77D5808-FAB3-4A3F-88AD-02558A8C53D6} = {F88D989C-0971-4C7A-9F1C-94F2230514BB}
 		{409779D5-239E-48F4-9F71-3347FE87566A} = {09B4D07E-61E9-4D29-84DD-5067D3D9D1E4}
+		{A183D34B-1E20-4DF6-8BA1-40BDB0D62278} = {0425C767-538A-44F2-B0F7-6302D8386100}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E993D9D0-96BC-4257-AAC1-504CCB6475A4}
