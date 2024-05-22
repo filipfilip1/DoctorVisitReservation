@@ -10,6 +10,7 @@ namespace DoctorVisitReservation.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+
 public class CityController : ControllerBase
 {
     private readonly IMediator _mediator;

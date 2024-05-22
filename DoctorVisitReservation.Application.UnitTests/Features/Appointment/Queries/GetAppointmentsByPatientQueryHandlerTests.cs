@@ -4,7 +4,6 @@ using DoctorVisitReservation.Application.Features.Appointment.Queries.GetAppoint
 using DoctorVisitReservation.Application.Features.Appointment.Queries.Shared;
 using DoctorVisitReservation.Application.MappingProfile;
 using DoctorVisitReservation.Application.UnitTests.Mocks;
-using DoctorVisitReservation.Domain.Entities;
 using Moq;
 using Shouldly;
 

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}|DoctorVisitReservation.Application.UnitTests\\DoctorVisitReservation.Application.UnitTests.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.application.unittests\\features\\appointment\\command\\confirmappointmentcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A183D34B-1E20-4DF6-8BA1-40BDB0D62278}|DoctorVisitReservation.Application.UnitTests\\DoctorVisitReservation.Application.UnitTests.csproj|solutionrelative:doctorvisitreservation.application.unittests\\features\\appointment\\command\\confirmappointmentcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.blazorui\\pages\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|solutionrelative:doctorvisitreservation.blazorui\\pages\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.blazorui\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|solutionrelative:doctorvisitreservation.blazorui\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.blazorui\\pages\\registerdoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|solutionrelative:doctorvisitreservation.blazorui\\pages\\registerdoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|c:\\users\\filip\\desktop\\studia inf\\projekty\\doctorvisitreservation\\doctorvisitreservation.blazorui\\pages\\registerdoctor.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7A198D-2329-492B-B26D-7975E0BD9A20}|DoctorVisitReservation.BlazorUI\\DoctorVisitReservation.BlazorUI.csproj|solutionrelative:doctorvisitreservation.blazorui\\pages\\registerdoctor.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfirmAppointmentCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application.UnitTests\\Features\\Appointment\\Command\\ConfirmAppointmentCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "DoctorVisitReservation.Application.UnitTests\\Features\\Appointment\\Command\\ConfirmAppointmentCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.Application.UnitTests\\Features\\Appointment\\Command\\ConfirmAppointmentCommandHandlerTests.cs",
-              "RelativeToolTip": "DoctorVisitReservation.Application.UnitTests\\Features\\Appointment\\Command\\ConfirmAppointmentCommandHandlerTests.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwAsAAAAZAAAA",
+              "Title": "Register.razor.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\Register.razor.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.BlazorUI\\Pages\\Register.razor.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\Register.razor.cs",
+              "RelativeToolTip": "DoctorVisitReservation.BlazorUI\\Pages\\Register.razor.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T22:38:43.009Z",
+              "WhenOpened": "2024-05-22T07:14:30.948Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDoctor.razor.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor.cs",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor.cs",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor.cs",
+              "RelativeToolTip": "DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T05:17:22.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterDoctor.razor",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor",
+              "RelativeToolTip": "DoctorVisitReservation.BlazorUI\\Pages\\RegisterDoctor.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T05:16:46.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "DoctorVisitReservation.BlazorUI\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\filip\\Desktop\\Studia INF\\Projekty\\DoctorVisitReservation\\DoctorVisitReservation.BlazorUI\\Pages\\Register.razor",
+              "RelativeToolTip": "DoctorVisitReservation.BlazorUI\\Pages\\Register.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T05:16:33.001Z",
+              "EditorCaption": ""
             }
           ]
         }

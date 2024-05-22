@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DoctorVisitReservation.Application\DoctorVisitReservation.Application.csproj" />
+    <ProjectReference Include="..\DoctorVisitReservation.Identity\DoctorVisitReservation.Identity.csproj" />
     <ProjectReference Include="..\DoctorVisitReservation.Persistence\DoctorVisitReservation.Persistence.csproj" />
   </ItemGroup>
 
